@@ -1,0 +1,215 @@
+/**
+ * Name: custom.css
+ *
+ *	T.O.C
+ *
+ *	=Basics
+ *	=Rev Slider Pager
+ *	=Rev Slider Nav 
+ *	=Rev Typography
+ *
+ */
+ 
+ 
+/* ==========================================================================
+   =Basics
+   ========================================================================== */
+   
+	.fullwidthbanner-container {
+		position: relative;
+		width: 100% !important;
+		max-height: 945px !important;
+		overflow: hidden;
+		padding: 0; 
+	}
+
+	.fullwidthbanner-container ul { list-style: none; }
+	.fullwidthbanner-container ul li { overflow: visible !important; }
+
+	.fullwidthbanner-container .fullwidthbanner {
+		position: relative;
+		width: 100% !important;
+		max-height: 945px !important;
+		visibility: hidden;
+	}
+
+/* ==========================================================================
+   =Rev Slider Pager
+   ========================================================================== */
+
+   /**
+ 	 * 1. changing the z-index from 1000 so that the bullets don't go over the sticky menu
+ 	 */
+   
+	.tp-bullets { 
+		z-index: 100; /* 1 */
+	}
+	   
+	.tp-bullets.simplebullets.round .bullet {
+		width: 10px;
+		height: 10px;
+		border: 1px solid #6dcff6;
+		margin: 0 3px;
+		background: transparent;
+	}
+
+	.tp-bullets.simplebullets.round .bullet.selected,
+	.tp-bullets.simplebullets.round .bullet:hover { background: #6dcff6;  }
+
+/* ==========================================================================
+   =Rev Slider Nav
+   ========================================================================== */
+
+	.tp-leftarrow.default,
+	.tp-rightarrow.default {
+		width: 60px;
+		height: 60px;
+		opacity: 0.5;
+	}
+
+	.tp-leftarrow.default:hover,
+	.tp-rightarrow.default:hover { opacity: 1; }
+
+	.tp-leftarrow.default { background: url(../../../images/left.png) no-repeat center center; }
+	.tp-rightarrow.default { background: url(../../../images/right.png) no-repeat center center; }
+	
+/* ==========================================================================
+   =Rev Typography
+   ========================================================================== */
+	
+	.caption.title {
+		color: #fff;
+		font-size: 30px;
+	}
+	
+	.caption.title span { color: #6dcff6; }
+	
+	.caption.title-bg {
+		padding: 25px 35px;
+		background-color: rgba(109, 207, 246, 0.8);
+		color: #fff;
+		font-size: 36px;
+	}
+	
+	.caption.title-bg span { color: #323232; }
+	
+	.caption.subtitle {
+		color: #fff;
+		font-size: 24px;
+		line-height: 35px;
+	}
+	
+	.caption.subtitle span { color: #6dcff6; }
+	
+	.caption.subtitle-2 { 
+		font-size: 24px;
+		font-weight: 300;
+	}
+	
+	.caption.text {
+		color: #fff;
+		font-size: 16px;	
+	}
+	
+	.caption.text-2 { font-size: 16px; }
+	
+	.caption.icon {
+		width: 115px;
+		height: 115px;
+		border: 1px solid #fff;
+		background-color: #6dcff6;
+		color: #fff;
+		text-align: center;
+	}
+	
+	.caption.icon i {
+		font-size: 50px;
+		line-height: 115px;
+	}
+	
+	.caption a.btn { color: #fff; }
+	.caption .btn { background-color: #6dcff6; }	
+	.caption .btn:after { background-color: #fff; }
+	.caption a.btn:hover { color: #6dcff6; }
+	
+	.caption .btn-black { background-color: #464646; }	
+	.caption a.btn-black:hover { color: #fff; }	
+	.caption .btn-black:after { background-color: #7d7d7d; }
+	
+	.caption.bg {
+		width: 800px;
+		height: 440px;
+		background: rgba(109, 207, 246, 0.5);
+	}
+	
+	@media (min-width: 1400px) {
+		
+		.caption.bg {
+			width: 980px;
+			height: 500px;
+		}
+		
+	}
+
+	@media (min-width: 768px) and (max-width: 979px) {
+		
+		.tp-leftarrow.default,
+		.tp-rightarrow.default { display: none; }
+		
+		.caption .btn { font-size: 12px; }
+		
+		.caption.bg {
+			width: 650px;
+			height: 350px;
+		}
+		
+		.caption.icon {
+			width: 75px;
+			height: 75px;
+		}
+		
+		.caption.icon i {
+			font-size: 30px;
+			line-height: 75px;
+		}
+		
+		.caption.subtitle { font-size: 22px; }
+		
+		.caption a.btn { padding: 8px 25px;  }
+		
+	}
+
+	@media (max-width: 767px) {
+		
+		.tp-leftarrow.default,
+		.tp-rightarrow.default { display: none; }
+		
+		.tp-bullets { bottom: 20px !important; }
+		
+		.caption .btn {
+			padding: 5px 10px;
+			font-size: 8px;
+			line-height: 12px;
+		}
+		
+		.caption.bg { display: none; }
+		
+		.caption.icon {
+			width: 30px;
+			height: 30px;
+		}
+		
+		.caption.icon i {
+			font-size: 18px;
+			line-height: 30px;
+		}
+		
+		.caption.subtitle { font-size: 22px; }
+		
+		.caption a.btn { 
+			padding: 3px 8px;  
+			font-size: 6px;
+			line-height: 10px;
+		}
+		
+	}

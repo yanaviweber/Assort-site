@@ -1,0 +1,1012 @@
+/* HEADER  */
+
+
+header .container-fluid {
+    border-top: 28px solid #0eaeda;
+    box-shadow: inset 0px 4px 6.23px 0.77px rgba(0, 0, 0, 0.41),0px 5px 9px 1.00px rgba(0, 0, 0, 0.41);
+    border-bottom: 12px solid #0eaeda;
+        z-index: 1;
+    display: inherit;
+    position: relative;
+        text-align: center;
+}
+
+header .container-fluid .at-2hbox h1{
+    font-size: 30px;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: 600;
+    text-align: center;
+        text-decoration: underline;
+    text-shadow: -2px -2px 1.96px rgba(118, 118, 118, 0.4);
+        margin-top: 18px;
+}
+
+header .container-fluid .at-3hbox p{
+    font-size: 20px;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+
+
+}
+
+header .container-fluid .at-3hbox p span{
+    color: #d1161d;
+    font-family: 'Lucida Sans Unicode';
+
+
+}
+
+
+header .at-hed-content .at-logo{
+
+     margin-top: 10px;
+}
+
+/* END HEADER  */
+
+
+/* CONTENT  */
+.at-content{
+
+    background: url(../images/fonts.png);
+}
+
+.at-content .at-1cbox .at-wit h2{
+
+    background-color: #fefdfd;
+    font-size: 24px;
+    color: #000000;
+     font-family: 'Lucida Sans Unicode';
+        text-align: center;
+    padding: 5px;
+     margin: 10px 3px 3px 3px;
+}
+
+
+.at-content .at-2cbox .at-yallou h3{
+
+    background-color: #e8de27;
+    font-size: 25px;
+    color: #000000;
+        text-align: center;
+    padding: 5px;
+    font-family: 'Arial Narrow Bold Italic';
+    margin: 3px;
+}
+
+.at-content .at-3cbox .at-yallou h3{
+
+    background-color: #e8de27;
+    font-size: 25px;
+    color: #000000;
+
+        text-align: center;
+    padding: 5px;
+    font-family: 'Arial Narrow Bold Italic';
+    margin: 3px;
+}
+
+	.at-content .at-4cbox .at-red{
+	    background-color: #FFFFFF;
+    padding: 0 15px;
+	
+}
+
+.at-content .at-4cbox .at-red .red{
+
+    color: #d1161d;
+    font-size: 30px;
+      font-family: 'Arial Narrow Bold Italic';
+}
+
+.at-content .at-4cbox .at-red .at-black{
+
+    color: #000000;
+    font-size: 25px;
+      font-family: 'Arial Narrow Bold Italic';
+
+}
+
+
+.at-forms .at-info-text {
+    padding: 5px 10px 5px 15px;
+    background-color: #0eaeda;
+    box-shadow: -3px -2px 3.24px 0.76px rgba(0, 0, 0, 0.42);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.at-forms .at-info-text p{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.at-forms .at-fblock input{
+    background-color: rgba(255, 255, 255, 0.89);
+    box-shadow: -3px -2px 3.24px 0.76px rgba(0, 0, 0, 0.42);
+    width: 100%;
+    border: 0px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.at-forms .at-fblock .at-botton{
+     background-color: #00cc33;
+    border-radius: 10px;
+    box-shadow: -3px -2px 3.24px 0.76px rgba(0, 0, 0, 0.42);
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Candara Bold';
+    border: none;
+    width: 100%;
+    height: 40px;
+}
+
+.at-forms .at-fblock .at-botton:hover{
+   color: #ffffff;
+
+}
+
+.at-forms img{
+
+    margin-top: -60px;
+}
+
+.at-block-yllou {
+       box-shadow: -9px -6px 14.4px 1.60px rgba(0, 0, 0, 0.34);
+    background: rgba(232,222,39,.8);
+    border-radius: 5px;
+    padding: 10px;
+    border: 5px solid rgba(184, 177, 57, 0.8);
+}
+
+
+
+.at-block-yllou h2{
+
+    color: #000000;
+    font-size: 26px;
+    font-family: 'Candara Bold';
+    text-align: center;
+
+}
+
+.at-block-yllou ol li{
+
+    color: #171717;
+    font-size: 18px;
+   font-family: 'Candara Bold';
+}
+
+.at-counter {
+    margin-top: 140px;
+    float: right;
+}
+
+.at-counter p{
+
+     color: #000000;
+    font-size: 28px;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: 900;
+       text-shadow: 0 0 15px #fff;
+}
+
+.at-content .at-img{
+  background: url(../images/krug.png) no-repeat;
+    background-position: center;
+        padding: 160px 0;
+    margin-top: 0px;
+}
+
+
+/* END CONTENT  */
+
+
+/* FOOTER  */
+
+.at-tfooter {
+background-color: #0eaeda;
+    border-top: 5px solid #ffffff;
+}
+
+.at-tfooter p{
+
+    color: #000000;
+    font-size: 18px;
+
+     font-family: 'Lucida Sans Unicode';
+    text-align: center;
+    font-weight: 600;
+}
+.at-tfooter .at-1fbox {
+
+    text-align: center;
+    line-height: 75px;
+
+}
+
+.at-tfooter .at-4fbox  {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+        margin-bottom: -24px;
+}
+
+.at-tfooter .at-4fbox  span{
+z-index: 1;
+    position: inherit;
+     background-color: #0eaeda;
+}
+
+.at-tfooter .at-3fbox{
+ border-bottom: 1px solid #ffffff;
+    border-top: 3px dotted #Fff;
+    padding-top: 25px;
+    margin-bottom: 15px;
+}
+
+.at-tfooter .at-2fbox{
+       margin-top: 40px;
+
+}
+.at-bfooter {
+    background-color: #d7d7d7;
+}
+
+.at-bfooter nav ul{
+        margin: 0;
+        list-style-type: none;
+}
+
+.at-bfooter nav ul li{
+        float: left;
+        margin: 5px 15px;
+}
+.at-bfooter nav ul li a{
+    color: #666565;
+        text-decoration: underline;
+}
+
+.at-tfooter .at-5fbox{
+     text-align: center;
+}
+
+.at-tfooter .at-5fbox span{
+        font-family: 'Lucida Sans Unicode';
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 15px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.at-tfooter .at-5fbox span a{
+    color: #262D36;
+    text-decoration: underline;
+
+}
+
+.at-tfooter .at-5fbox span a:hover{
+    color: #000;
+
+
+}
+
+
+
+#timer70ca5d89955ecc0d5760afc8a88a0425{
+		    min-width: 0px!important;
+
+	}
+
+
+
+/* END FOOTER  */
+
+
+
+/* mobile  */
+
+
+#timer70ca5d89955ecc0d5760afc8a88a0425 .timer-slide-inner {
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    font-size: 50px;
+    color: #000;
+    font-family: 'Fira Sans';
+}
+
+#timer70ca5d89955ecc0d5760afc8a88a0425 .timer-separator {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1;
+    margin: 0px!important;
+    padding: 0px 5px!important;
+    font-size: 50px!important;
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans';
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+
+    .at-tfooter p {
+
+    font-size: 17px !important;
+
+}
+
+   .at-content .at-2cbox .at-yallou h3 {
+
+    font-size: 22px !important;
+
+}
+
+    .at-content .at-1cbox .at-wit h2,.at-content .at-3cbox .at-yallou h3 {
+
+    font-size: 22px !important;
+
+}
+
+    .countdownHolder {
+
+    font: 35px/1.5 'Open Sans Condensed',sans-serif !important;
+
+
+}
+
+     .at-content .at-4cbox .at-red .red {
+
+    font-size: 25px!important;
+
+}
+
+	#timer70ca5d89955ecc0d5760afc8a88a0425{
+		    min-width: 0px!important;
+
+	}
+
+		#timer70ca5d89955ecc0d5760afc8a88a0425 .timer-slide-inner {
+
+    font-size: 42px!important;
+
+}
+	#timer70ca5d89955ecc0d5760afc8a88a0425 .timer-separator{
+
+	    display: inline-block;
+    vertical-align: top;
+    line-height: 1;
+    margin: 0px!important;
+    padding: 0px 5px!important;
+    font-size: 42px!important;
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans';
+}
+
+.at-counter {
+    margin-top: 85px;
+	}
+
+}
+
+
+@media only screen and (max-width: 992px) and (min-width: 757px){
+
+    .at-counter {
+    margin-top: 70px!important;
+    float: none!important;
+    margin-bottom: 30px!important;
+    text-align: center!important;
+}
+
+
+     .at-tfooter p {
+
+    font-size: 16px !important;
+
+}
+
+   .at-content .at-2cbox .at-yallou h3 {
+
+    font-size: 17px !important;
+
+}
+
+    .at-content .at-1cbox .at-wit h2,.at-content .at-3cbox .at-yallou h3 {
+
+    font-size: 17px !important;
+
+}
+
+
+        .at-content .at-4cbox .at-red .red {
+
+    font-size: 20px!important;
+
+}
+
+
+    header .container-fluid .at-3hbox p {
+    font-size: 16px!important;
+    }
+
+}
+
+@media only screen and (max-width: 756px) and (min-width: 550px){
+
+
+.at-counter {
+    margin-top: 70px!important;
+    float: none!important;
+    margin-bottom: 30px!important;
+    text-align: center!important;
+}
+
+
+    .at-forms img {
+      margin-top: 0px;
+    -webkit-transform: rotate(150deg);
+    -moz-transform: rotate(150deg);
+    -o-transform: rotate(150deg);
+    -ms-transform: rotate(150deg);
+    transform: rotate(150deg);
+}
+
+    .at-content .at-img {
+    background: url(../images/krug.png)no-repeat!important;
+    background-position: bottom!important;
+    padding: 80px 0!important;
+    margin-top: -110px!important;
+
+}
+
+
+
+    .at-block-yllou {
+
+    margin-top: 80px!important;
+}
+
+     .at-content .at-4cbox .at-red p{
+
+        font-size: 20px!important;
+        text-align: center;
+    }
+
+    .at-counter p {
+
+    font-size: 25px!important;
+
+}
+
+    .at-bfooter nav ul li {
+    float: none;
+    margin: 5px 15px;
+    text-align: center;
+}
+     .at-bfooter nav ul {
+
+    padding: 0;
+}
+
+#timer70ca5d89955ecc0d5760afc8a88a0425 .timer-slide-inner {
+
+    font-size: 50px!important;
+
+}
+
+		#timer70ca5d89955ecc0d5760afc8a88a0425 .timer-separator{
+
+	    display: inline-block;
+    vertical-align: top;
+    line-height: 1;
+    margin: 0px!important;
+    padding: 0px 5px!important;
+    font-size: 42px!important;
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans';
+}
+
+}
+
+
+@media only screen and (max-width: 549px) and (min-width: 450px){
+
+
+   .at-content .at-1cbox .at-wit h2 {
+
+    font-size: 18px!important;
+    }
+
+    .at-content .at-2cbox .at-yallou h3,.at-content .at-3cbox .at-yallou h3 {
+
+    font-size: 18px!important;
+    }
+
+    .at-forms img {
+    width: 40%;
+    margin-top: 0px;
+    -webkit-transform: rotate(150deg);
+    -moz-transform: rotate(150deg);
+    -o-transform: rotate(150deg);
+    -ms-transform: rotate(150deg);
+    transform: rotate(150deg);
+}
+
+    .at-content .at-4cbox .at-red p{
+
+        font-size: 20px!important;
+        text-align: center;
+    }
+
+
+   .at-block-yllou {
+    margin-top: 70px!important;
+}
+
+    .at-counter p {
+    color: #000000;
+    font-size: 28px;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: 900;
+    text-shadow: 0 0 15px #fff;
+}
+
+        .at-counter {
+    margin-top: 60px!important;
+    float: none!important;
+    margin-bottom: 30px!important;
+    text-align: center!important;
+}
+
+    .at-content .at-img {
+    background: url(../images/krug.png)no-repeat!important;
+    background-position: bottom!important;
+    padding: 80px 0!important;
+    margin-top: -110px!important;
+}
+
+    .countdownHolder {
+
+    font: 35px/1.5 'Open Sans Condensed',sans-serif!important;
+
+}
+
+    .at-bfooter nav ul li {
+    float: none;
+    margin: 5px 15px;
+    text-align: center;
+}
+     .at-bfooter nav ul {
+
+    padding: 0;
+}
+
+	#timer70ca5d89955ecc0d5760afc8a88a0425 .timer-slide-inner {
+
+    font-size: 40px!important;
+
+}
+
+		#timer70ca5d89955ecc0d5760afc8a88a0425 .timer-separator{
+
+	    display: inline-block;
+    vertical-align: top;
+    line-height: 1;
+    margin: 0px!important;
+    padding: 0px 5px!important;
+    font-size: 42px!important;
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans';
+}
+
+
+}
+
+
+@media only screen and (max-width: 449px) and (min-width: 375px){
+    .at-counter {
+    margin-top: 60px!important;
+    float: none!important;
+    margin-bottom: 30px!important;
+    text-align: center!important;
+}
+
+    .at-counter p {
+
+    font-size: 20px;
+
+}
+
+
+ .at-content .at-img {
+    background: url(../images/krug.png)no-repeat!important;
+    background-position: bottom!important;
+    padding: 80px 0!important;
+    margin-top: -110px!important;
+}
+
+    header .container-fluid .at-2hbox h1 {
+    font-size: 25px;
+    }
+
+    .at-forms img {
+    width: 40%;
+    margin-top: 0px;
+    -webkit-transform: rotate(150deg);
+    -moz-transform: rotate(150deg);
+    -o-transform: rotate(150deg);
+    -ms-transform: rotate(150deg);
+    transform: rotate(150deg);
+}
+
+    .at-content .at-4cbox .at-red p {
+    font-size: 20px!important;
+    text-align: center;
+}
+
+    .at-block-yllou {
+    margin-top: 60px!important;
+}
+
+    .at-content .at-2cbox .at-yallou h3 {
+
+    font-size: 16px;
+    }
+    .at-content .at-3cbox .at-yallou h3 {
+
+    font-size: 16px;
+    }
+    .at-content .at-1cbox .at-wit h2 {
+
+    font-size: 16px;
+    }
+
+       .countdownHolder {
+
+    font: 25px/1.5 'Open Sans Condensed',sans-serif!important;
+
+}
+    .at-bfooter nav ul li {
+    float: none;
+    margin: 5px 15px;
+    text-align: center;
+}
+     .at-bfooter nav ul {
+
+    padding: 0;
+}
+
+	#timer70ca5d89955ecc0d5760afc8a88a0425 .timer-slide-inner {
+
+    font-size: 30px!important;
+
+}
+
+		#timer70ca5d89955ecc0d5760afc8a88a0425 .timer-separator{
+
+	    display: inline-block;
+    vertical-align: top;
+    line-height: 1;
+    margin: 0px!important;
+    padding: 0px 5px!important;
+    font-size: 42px!important;
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans';
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 374px) and (min-width: 300px){
+    .at-counter {
+    margin-top: 60px!important;
+    float: none!important;
+    margin-bottom: 30px!important;
+    text-align: center!important;
+}
+
+    .at-counter p {
+
+    font-size: 16px;
+
+}
+
+
+ .at-content .at-img {
+    background: url(../images/krug.png)no-repeat!important;
+    background-position: bottom!important;
+    padding: 80px 0!important;
+    margin-top: -110px!important;
+}
+
+    header .container-fluid .at-2hbox h1 {
+    font-size: 16px;
+    }
+
+    .at-forms img {
+    width: 40%;
+    margin-top: 0px;
+    -webkit-transform: rotate(150deg);
+    -moz-transform: rotate(150deg);
+    -o-transform: rotate(150deg);
+    -ms-transform: rotate(150deg);
+    transform: rotate(150deg);
+}
+
+    .at-content .at-4cbox .at-red p {
+    font-size: 16px!important;
+    text-align: center;
+}
+
+    .at-block-yllou {
+    margin-top: 50px!important;
+}
+
+    .at-content .at-2cbox .at-yallou h3 {
+
+    font-size: 14px;
+    }
+    .at-content .at-3cbox .at-yallou h3 {
+
+    font-size: 14px;
+    }
+    .at-content .at-1cbox .at-wit h2 {
+
+    font-size: 14px;
+    }
+
+       .countdownHolder {
+
+    font: 20px/1.5 'Open Sans Condensed',sans-serif!important;
+
+}
+    .at-bfooter nav ul li {
+    float: none;
+    margin: 5px 15px;
+    text-align: center;
+}
+
+    header .container-fluid .at-3hbox p {
+    font-size: 16px;
+    }
+
+    .at-content .at-4cbox .at-red .red {
+
+    font-size: 20px;
+
+}
+    .at-forms .at-info-text {
+
+    font-size: 16px;
+    }
+
+    .at-forms .at-fblock .at-botton {
+
+    font-size: 16px;
+}
+
+    .at-block-yllou h2 {
+
+    font-size: 20px;
+
+}
+    .at-block-yllou ol li {
+
+    font-size: 15px;
+
+}
+    .at-bfooter nav ul {
+
+    padding: 0;
+}
+
+    .at-tfooter p {
+
+    font-size: 14px;
+
+}
+    .at-block-yllou ol{
+        margin-left: -20px;
+    }
+
+	#timer70ca5d89955ecc0d5760afc8a88a0425 .timer-slide-inner {
+
+    font-size: 20px!important;
+
+}
+
+		#timer70ca5d89955ecc0d5760afc8a88a0425 .timer-separator{
+
+	    display: inline-block;
+    vertical-align: top;
+    line-height: 1;
+    margin: 0px!important;
+    padding: 0px 5px!important;
+    font-size: 22px!important;
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans';
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 299px) and (min-width: 200px){
+
+
+	#timer70ca5d89955ecc0d5760afc8a88a0425 .timer-slide-inner {
+
+    font-size: 12px!important;
+
+}
+
+
+		#timer70ca5d89955ecc0d5760afc8a88a0425 .timer-separator{
+
+	    display: inline-block;
+    vertical-align: top;
+    line-height: 1;
+    margin: 0px!important;
+    padding: 0px 5px!important;
+    font-size: 18px!important;
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans';
+}
+
+
+    .at-counter {
+    margin-top: 60px!important;
+    float: none!important;
+    margin-bottom: 30px!important;
+    text-align: center!important;
+}
+
+    .at-counter p {
+
+    font-size: 16px;
+
+}
+
+
+ .at-content .at-img {
+    background: url(../images/krug.png)no-repeat!important;
+    background-position: bottom!important;
+    padding: 80px 0!important;
+    margin-top: -110px!important;
+}
+
+    header .container-fluid .at-2hbox h1 {
+    font-size: 16px;
+    }
+
+    .at-forms img {
+    width: 40%;
+    margin-top: 0px;
+    -webkit-transform: rotate(150deg);
+    -moz-transform: rotate(150deg);
+    -o-transform: rotate(150deg);
+    -ms-transform: rotate(150deg);
+    transform: rotate(150deg);
+}
+
+    .at-content .at-4cbox .at-red p {
+    font-size: 16px!important;
+    text-align: center;
+}
+
+    .at-block-yllou {
+    margin-top: 50px!important;
+}
+
+    .at-content .at-2cbox .at-yallou h3 {
+
+    font-size: 14px;
+    }
+    .at-content .at-3cbox .at-yallou h3 {
+
+    font-size: 14px;
+    }
+    .at-content .at-1cbox .at-wit h2 {
+
+    font-size: 14px;
+    }
+
+       .countdownHolder {
+
+    font: 20px/1.5 'Open Sans Condensed',sans-serif!important;
+
+}
+    .at-bfooter nav ul li {
+    float: none;
+    margin: 5px 15px;
+    text-align: center;
+}
+
+    header .container-fluid .at-3hbox p {
+    font-size: 14px;
+    }
+
+    .at-content .at-4cbox .at-red .red {
+
+    font-size: 20px;
+
+}
+    .at-forms .at-info-text {
+
+    font-size: 16px;
+    }
+
+    .at-forms .at-fblock .at-botton {
+
+    font-size: 12px;
+}
+
+    .at-block-yllou h2 {
+
+    font-size: 20px;
+
+}
+    .at-block-yllou ol li {
+
+    font-size: 15px;
+
+}
+    .at-bfooter nav ul {
+
+    padding: 0;
+}
+
+    .at-tfooter p {
+
+    font-size: 14px;
+
+}
+    .at-block-yllou ol{
+        margin-left: -20px;
+    }
+
+    .container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px!important;
+   background: url(../images/MergedLayers1.png);
+}
+
+
+
+
+
+ .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+   padding-right: 0px !important;
+    padding-left: 0px!important;
+}
+
+
+
+}
+
+
+.modal-body{
+        height: 350px;
+    overflow-x: auto;
+}
+
+
+#timer70ca5d89955ecc0d5760afc8a88a0425 .timer-slide-inner {
+    border-radius: 10px;
+    background-color: #fff !important;
+    font-size: 60px;
+    color: #000!important;
+    font-family: 'Fira Sans';
+    border: 2px solid #d1161d !important;
+}

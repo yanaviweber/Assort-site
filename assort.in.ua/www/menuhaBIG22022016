@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!-- TOP MENU bigmenu -->
+<div class="row">
+    <div class="span3">
+
+        <!-- // Logo // -->
+
+        <a href="index.html" id="logo">
+            <img class="responsive-img" src="../_layout/images/LOGOdlinnij.png" alt="">
+        </a>
+
+    </div><!-- end .span3 -->
+    <div class="span9">
+
+        <!-- // Mobile menu trigger // -->
+
+        <a href="#" id="mobile-menu-trigger">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <!-- // Menu // -->
+
+        <ul class="sf-menu" id="menu">
+            <li>
+                <a href="index.html">
+                    <span>Главная</span>
+                </a>
+            </li>
+            <li class="dropdown current">
+                <a href="about-us.html">
+                    <span>Основное</span>
+                </a>
+                <ul>
+                    <li>
+                        <a href="about-us.html">Про нас</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Условия работы</a>
+                    </li>
+                    <li>
+                        <a href="pricing.html">Текущие предложения</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <span>Наши услуги</span>
+                </a>
+
+                <div class="sf-mega sf-mega-4-col">
+
+                    <div class="sf-mega-section">
+
+                        <ul>
+                            <li>
+                                <h6 class="name-category-menu">Сайты</h6>
+                            </li>
+                            <li>
+                                <a href="../big_menu/web-development/web-development.html">
+                                    WEB-Разработка
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/web-development/web-design.html">
+                                    WEB-Дизайн
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/web-development/design-na-gotovyh-maketah.html">
+                                    Дизайн на готовых макетах
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/web-development/natyazhka-na-adminku.html">
+                                    Верстка на CMS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/web-development/redesign.html">
+                                    Редизайн
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/web-development/debugging.html">
+                                    Аудит сайта
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/web-development/perezalivka-na-druguyu-adminku.html">
+                                    Перенос на другую CMS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/web-development/samopisnaya-adminka.html">
+                                    Самописная CMS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/web-development/adaptive-version-sait.html">
+                                    Адаптивная версия
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div><!-- end .sf-mega-section -->
+
+                    <div class="sf-mega-section">
+
+                        <ul>
+                            <li>
+                                <h6 class="name-category-menu">Локальные сети</h6>
+                            </li>
+                            <li>
+                                <a href="../big_menu/pc-seti/toplogy-develop.html">
+                                    Разработка топологии
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/pc-seti/servise-obsluzhivaniye-seti.html">
+                                    Обслуживание сети
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/pc-seti/optimizaciya-raboty-seti.html">
+                                    Оптимизация работы сети
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/pc-seti/nastroyka-pc-periferiya.html">
+                                    Натройка станций и периферии
+                                </a>
+                            </li>
+                            <li>
+                                <h6 class="name-category-menu">Настройка и ремонт ПК</h6>
+                            </li>
+                            <li>
+                                <a href="../big_menu/nastrojka-remont-pc/os-download.html">
+                                    Установка операционной системы
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/nastrojka-remont-pc/clean-and-optimization-pc.html">
+                                    Чистка и оптимизация пк
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div><!-- end .sf-mega-section -->
+
+                    <div class="sf-mega-section">
+
+                        <ul>
+                            <li>
+                                <h6 class="name-category-menu">Графика,Support,Акции</h6>
+                            </li>
+                            <li>
+                                <a href="../big_menu/graphic-support-actions/obrabotka-cifrovih-photo.html">
+                                    Обработка цифровых фото
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/graphic-support-actions/business-design.html">
+                                    Бизнес - Дизайн
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/graphic-support-actions/support-uslugi.html">
+                                    SUPPORT - Услуги
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/graphic-support-actions/seo-optimization-uslugi.html">
+                                    СЕО, оптимизация и реклама
+                                </a>
+                            </li>
+                            <li>
+                                <h6 class="name-category-menu">Акции и бонусы</h6>
+                            </li>
+                            <li>
+                                <a href="../big_menu/actions-opportunities/spesional-predlozhenija.html">
+                                    Спецпредложения
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div><!-- end .sf-mega-section -->
+
+                    <div class="sf-mega-section">
+
+                        <ul>
+                            <li>
+                                <h6 class="name-category-menu">Программы и софт</h6>
+                            </li>
+                            <li>
+                                <a href="../big_menu/programm-licensies/antiviruses.html">
+                                    Антивируски
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/programm-licensies/operation-system.html">
+                                    Операционные системы
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/programm-licensies/buhgalterija-programm.html">
+                                    Бухгалтерия и отчетность
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/programm-licensies/pc-seti-programm.html">
+                                    Локальные сети
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../big_menu/programm-licensies/graphic-programm.html">
+                                    Графика
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div><!-- end .sf-mega-section -->
+                    <div class="sf-mega-section">
+
+                        <ul>
+                            <li>
+                                <h6 class="name-category-menu">Другие фирменные услуги</h6>
+                            </li>
+                            <li>
+                                <a href="../remont/index.html">
+                                    АPPLE-Сервис
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div><!-- end .sf-mega-section -->
+
+                </div><!-- end .sf-mega -->
+
+            </li>
+            <li class="dropdown">
+                <a href="portfolio.html">
+                    <span>Портфолио</span>
+                </a>
+            </li>
+            <li class="dropdown">
+                <a href="blog.html">
+                    <span>Блог</span>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <span>Контакты</span>
+                </a>
+            </li>
+        </ul>
+
+    </div><!-- end .span9 -->
+</div><!-- end .row -->
+<!-- TOP MENU  -->
+
+<!-- BOTTOM MENU bigmenu -->
+<div class="row">
+    <div class="span3" id="footer-widget-area-1">
+
+        <div class="widget ewf_widget_social_media">
+
+            <div>
+                <h5 class="widget-title">Сайты</h5>
+
+                <ul>
+                    <li>
+                        <a href="../big_menu/web-development/web-development.html">WEB - Разработка</a>
+                    </li>
+                    <li>
+                        <a href="../big_menu/web-development/web-design.html">WEB - Дизайн</a>
+                    </li>
+                    <li>
+                        <a href="../big_menu/web-development/design-na-gotovyh-maketah.html">Дизайн на готовых макетах</a>
+                    </li>
+                    <li>
+                        <a href="../big_menu/web-development/natyazhka-na-adminku.html">Верстка на CMS</a>
+                    </li>
+                    <li>
+                        <a href="../big_menu/web-development/redesign.html">Редизайн</a>
+                    </li>
+                    <li>
+                        <a href="../big_menu/web-development/debugging.html">Аудит сайта</a>
+                    </li>
+                    <li>
+                        <a href="../big_menu/web-development/perezalivka-na-druguyu-adminku.html">Перенос на другую CMS</a>
+                    </li>
+                    <li>
+                        <a href="../big_menu/web-development/samopisnaya-adminka.html">Самописная CMS</a>
+                    </li>
+                    <li>
+                        <a href="../big_menu/web-development/adaptive-version-sait.html">Адаптивная версия</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="widget widget_text">
+
+                <div class="textwidget">
+
+                    <p>
+                        <img src="../_layout/images/LOGOdlinnij.png" alt="">
+                    </p>
+
+                    <!--<br>-->
+
+                    <p>Мы любим то что делаем! </p>
+
+                </div><!-- end .textwidget -->
+
+            </div><!-- end .widget_text -->
+            <div class="fixed">
+
+                <a href="#" class="googleplus-icon social-icon">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+
+                <a href="#" class="twitter-icon social-icon">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </div>
+
+
+        </div><!-- end .ewf_widget_social_media -->
+
+    </div><!-- end .span3 -->
+    <div class="span3" id="footer-widget-area-2">
+        <h5 class="widget-title">Локальные сети</h5>
+
+        <ul>
+            <li>
+                <a href="../big_menu/pc-seti/toplogy-develop.html">Разработка топологии</a>
+            </li>
+            <li>
+                <a href="../big_menu/pc-seti/servise-obsluzhivaniye-seti.html">Обслуживание сети</a>
+            </li>
+            <li>
+                <a href="../big_menu/pc-seti/optimizaciya-raboty-seti.html">Оптимизация работы сети</a>
+            </li>
+            <li>
+                <a href="../big_menu/pc-seti/nastroyka-pc-periferiya.html">Настройка станций и периферии</a>
+            </li>
+        </ul>
+        <h5 class="widget-title">Настройка и ремонт пк</h5>
+        <ul>
+            <li>
+                <a href="../big_menu/nastrojka-remont-pc/os-download.html">Установка операционной системы</a>
+            </li>
+            <li>
+                <a href="../big_menu/nastrojka-remont-pc/clean-and-optimization-pc.html">Чистка и оптимизация</a>
+            </li>
+        </ul>
+
+    </div><!-- end .span3 -->
+    <div class="span3" id="footer-widget-area-3">
+
+        <!--<div class="widget widget_recent_entries">blok c ikonkami-->
+        <h5 class="widget-title">Графика, SUPPORT, Акции</h5>
+
+        <ul>
+            <li>
+                <a href="../big_menu/graphic-support-actions/obrabotka-cifrovih-photo.html">Обработка цифровых фото</a>
+            </li>
+            <li>
+                <a href="../big_menu/graphic-support-actions/business-design.html">Бизнес - Дизайн</a>
+            </li>
+            <li>
+                <a href="../big_menu/graphic-support-actions/support-uslugi.html">SUPPORT Услуги</a>
+            </li>
+            <li>
+                <a href="../big_menu/graphic-support-actions/seo-optimization-uslugi.html">СЕО Оптимизация</a>
+            </li>
+        </ul>
+        <ul>
+            <h5 class="widget-title">Акции</h5>
+            <li>
+                <a href="../big_menu/actions-opportunities/spesional-predlozhenija.html">Спецпредложения</a>
+            </li>
+        </ul>
+
+        <!--</div>--><!-- end .widget_recent_entries -->
+
+    </div><!-- end .span3 -->
+    <div class="span3" id="footer-widget-area-4">
+        <!--<div class="widget widget_recent_entries">blok c ikonkami-->
+        <h5 class="widget-title">Программы и Софт</h5>
+
+        <ul>
+            <li>
+                <a href="../big_menu/programm-licensies/antiviruses.html">Антивируски</a>
+            </li>
+            <li>
+                <a href="../big_menu/programm-licensies/operation-system.html">Операционные системы</a>
+            </li>
+            <li>
+                <a href="../big_menu/programm-licensies/buhgalterija-programm.html">Бухгалтерия и отчетность</a>
+            </li>
+            <li>
+                <a href="../big_menu/programm-licensies/pc-seti-programm.html">Локальные сети</a>
+            </li>
+            <li>
+                <a href="../big_menu/programm-licensies/graphic-programm.html">Графика</a>
+            </li>
+        </ul>
+        <ul>
+            <h5 class="widget-title">Другие фирменные услуги</h5>
+            <li>
+                <a href="../remont/index.html">
+                    АPPLE-Сервис
+                </a>
+            </li>
+        </ul>
+        <!-- </div>-->
+        <div class="widget ewf_widget_contact_info">
+
+            <h5 class="widget-title">Связаться с нами</h5>
+
+            <ul>
+                <li>
+                    <i class="ifc-home"></i>
+                    Украина, г.Киев.ул., Ак.Корольова, 6А. кв.84
+                </li>
+                <li>
+                    <i class="ifc-home"></i>
+                    0975755544, 0982754491
+                </li>
+                <li>
+                    <i class="ifc-home"></i>
+                    <a href="mailto:#">assort.systems@gmail.com</a>
+                </li>
+                <li>
+                    <i class="ifc-home"></i>
+                    <a href="#">www.assort.in.ua</a>
+                </li>
+            </ul>
+
+        </div><!-- end .ewf_widget_contact_info -->
+
+    </div><!-- end .span3 -->
+</div><!-- end .row -->
+<!-- BOTTOM MENU -->
+</body>
+</html>
